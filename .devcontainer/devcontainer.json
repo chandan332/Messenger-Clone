@@ -1,0 +1,30 @@
+{
+	"name": "LaravelMessengerApp",
+	"workspaceFolder": "/workspaces",
+	"dockerComposeFile": [
+		"../compose.yml"
+	],
+	"service": "messenger",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"editor.wordWrap": "on",
+				"remote.autoForwardPorts": false
+			},
+			"extensions": [
+				"entexa.tall-stack",
+				"onecentlin.laravel-blade",
+				"Codeium.codeium",
+				"ms-azuretools.vscode-docker",
+				"redhat.vscode-yaml"
+			]
+		}
+	},
+	"forwardPorts": [],
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-extra/features/composer:1": {}
+	},
+	"postCreateCommand": "./.scripts/postCreateCommand.sh"
+}
