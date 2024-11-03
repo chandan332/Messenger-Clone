@@ -11,4 +11,3 @@ if ! ln -s .env.example .env; then
     ln -s .env.example .env
 fi
 
-php artisan migrate --force

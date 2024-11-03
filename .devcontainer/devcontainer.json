@@ -17,7 +17,8 @@
 				"onecentlin.laravel-blade",
 				"Codeium.codeium",
 				"ms-azuretools.vscode-docker",
-				"redhat.vscode-yaml"
+				"redhat.vscode-yaml",
+				"bmewburn.vscode-intelephense-client"
 			]
 		}
 	},
